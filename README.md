@@ -1,3 +1,4 @@
+Esto es una prueba de git
 Tener en cuenta que para subir las imagenes, habilitamos /config/filesystems.php de local a public
 
 se debe ejecutar estar linea para crea el acceso directo a la carpeta storage/public
