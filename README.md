@@ -9,6 +9,15 @@ ver como se crea el acceso directo en blog/public
 en .env
 poner FILESYSTEM_DRIVER=public
 
+en linux
+debemos dar los permisos adecuados a la carpeta storage en LINUX
+sudo chmod -R 777 ./storage
+sudo chmod -R 777 ./bootstrap/cache
+
+
+para limpiar cache de y otros en laravel
+php artisan optimize:clear
+
 
 
 en tailwind existe una clase css llamada 'container', esta clase lo deshabilitamos para poder crear nuestro propio container
